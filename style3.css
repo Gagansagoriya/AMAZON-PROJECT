@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/* recents-classes */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+:root {
+    --primry-text-color: #fff;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+    --navbar-one-background-color:#0F1111;
+    --navbar-second-background-color:#222f3d;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    color: var(--primry-text-color);
+}
+.border-box{
+    border: 1px solid transparent;
+    border-radius: 2px;
+
+}
+.border-box:hover{
+    border: 1px solid #fff;
+}
+/* flex-class */
+
+.flex{
+    display: flex;      
+}
+/* header-amazon-nav-bar */
+.nav-bar{
+    background-color: var(--navbar-one-background-color);
+    height: 60px; 
+    align-items: center;    
+    justify-content: space-evenly;   
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* icon-div */
+.deliver{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 30px;
+}
+.add-icon{
+    align-items: center;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.location{
+    margin-left: 3px;
+}
+
+/* search-amazon-bar */
+.nav-search{
+    width: 620px;
+    height: 40px;
+    justify-content: space-evenly;
+    /* background-color: rgb(180, 99, 99); */
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;    
+     border: none;
+}
+
+.search-box{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   background-color: rgb(230, 184, 34);
+   color: #213030;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+
+/* nav-return-box */
+span{
+    font-size: 0.7rem;
+}
+.nav-text{
+    font-weight: 700;
+    font-size:0.8rem;
+}
+/* nav-car */
+.nav-cart i{
+ font-size: 35px;
+ height: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* <!-- Second-nav-bar-pannle --> */
+.pannle{
+    height: 80px;
+    background-color: var(--navbar-second-background-color);
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: .9rem;
+   }
+.pannle-option a{
+    display: inline;
+    margin-left: 15px;
+}
+.pannle-option a:hover{
+    color: var(--accent-color);
+}
+.pannle-option{
+    width: 70%;
+    font-size: .85rem;
+
+}
+.pannle-deals a:hover{
+    color: var(--accent-color);
+}
+
+/* sub-image-section */
+.sub-image-section{
+    background-image: url("amazon img/asset\ 5.jpeg");
+    background-size: cover;
+   height: 600px;
+}
+
+/* shop-section */
+.shop-section{    
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+.box{
+    margin-top: 5px;
+    background-color: #fff;
+    height: 400px;
+    /* border: 2px solid black; */
+    width: 23%;
+    border-radius: 5.2px;
+    padding: 20px 0px 15px;
+}
+.box-img{
+    height: 300px;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    color: #0F1111;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content a{
+    color: #0b0e0f;
+}
+.box-content a:hover{
+    color: #1d69a3;
+    text-decoration: underline;
+}
+
+/* footer-1 */
+footer{
+    margin-top: 25px;
+}
+.footer-1{
+  
+    background-color: #37475a;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 0.85rem;
+}
+
+/* footer-links */
+.footer-2{
+    background-color: #222f3d;
+    height: 300px;    
+    justify-content: space-evenly;
+}
+.footer-2 a{
+    display: block;
+    font-size: 0.854rem;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: 10px;
+    color: #dddddd;
+}
+.footer-2 a:hover{
+    text-decoration: underline;
+    color: #577592;
+    transition: .2s ease-in;
+}
+.footer-3{
+background-color: #222f3d;
+border-top: 0.5px solid #dddddd;
+height: 150px;
+justify-content: center;
+align-items: center;
+      
+}
+.logo{
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;   
+}
+.links{
+justify-content: space-between;
+}
+.foot-pannle-4{
+    background-color: #0b0e0f;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+}
+.foot-pannle-4 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.85rem;    
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    margin-top: 5px;
+    font-size: 0.75rem;
+}
